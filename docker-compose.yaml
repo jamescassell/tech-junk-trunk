@@ -1,0 +1,18 @@
+version: "3"
+services:
+  techjunk:
+    command: jekyll serve
+    image: jekyll/jekyll:latest
+    volumes:
+      - $PWD:/srv/jekyll
+      - $PWD/vendor/bundle:/usr/local/bundle
+    ports:
+      - '4000:4000'
+    #  - '35729:35729'
+    #  - '3000:3000'
+    #  - '80:4000'
+    labels:
+      - "traefik.enable=true"
+      - "traefik.backend=techjunk"
+      - "traefik.frontend.rule=Host:techjunk.diginc.lan"
+      - "traefik.port=4000"
