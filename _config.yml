@@ -1,14 +1,13 @@
 # Site settings
 title: "Tech Junk Trunk"
-email: adam@diginc.us
+email: "adam@diginc.us"
 description: "Technical Junk Trunk Blog - Code, Automation, Learn"
 baseurl: ""
 url: "https://techjunktrunk.com/"
 title_description: "Technical Junk in an empirical trunk"
-#title_image: "https://www.gravatar.com/avatar/00000000000000000000000000000000?s=500&d=mm"
 title_image: "https://i.imgur.com/zKjBuan.jpg"
-google_analytics: ""
-#disqus_account: cartenoire
+google_analytics: "UA-109200774-1"
+#disqus_account: ""
 github_repository: https://github.com/diginc/tech-junk-trunk
 addthis_id: 
 post_limit: 5
@@ -20,7 +19,7 @@ github_username:  diginc
 reddit_username: diginc
 #linkedin_link: http://carte-noire.jacobtomlinson.co.uk/
 #google_plus_link: http://carte-noire.jacobtomlinson.co.uk/
-stackoverflow_link: https://stackoverflow.com/users/895792/diginc
+#stackoverflow_link: 
 #xing_link:
 #facebook_link:
 
