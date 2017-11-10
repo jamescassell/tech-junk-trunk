@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Add a private key to your ssh agent from a variable.
-date:       2017-11-03 21:00
+date:       2017-11-10 12:47
 summary:    How to add an SSH key from an enviroment variables instead of file.
 categories: bash
 thumbnail: bash
