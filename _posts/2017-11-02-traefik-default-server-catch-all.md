@@ -2,7 +2,7 @@
 layout:     post
 title:      Traefik default server catch all rule
 date:       2017-11-03 21:00
-summary:    Using thumbnails in your Carte Noire articles.
+summary:    How to setup Traefik with a traditional default web server rule
 categories: docker
 thumbnail: docker
 tags:
