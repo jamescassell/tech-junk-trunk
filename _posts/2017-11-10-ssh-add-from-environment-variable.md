@@ -16,7 +16,7 @@ To redirect the contents of the environment variable into `ssh-add` instead of a
 
 ```
 eval $(ssh-agent -s) 
-ssh-add <(echo "$PRIVATE_KEY") 
+ssh-add <(cat <<<"$PRIVATE_KEY") 
 
 # List out your new key's fingerprint
 ssh-add -l
